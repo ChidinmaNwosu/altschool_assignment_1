@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Information</title>
+    <link rel="icon" href="img/favicon.ico">
+    </head>
+    
+  <body>
+   <a href="#main" class="skip-link button">Skip to Content</a>
+   <a href=""
+    <header>
+      <h1>Form Information</h1>
+      <nav>
+        <ul>
+          <li><a href="./index.html">About Me:Nwosu Chidinma</a></li>
+          <li><a href="#">Form Information</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr>
+    <main id="main">
+      <h2>Application Form</h2>
+      <p><em>Fill in your details</em></p>
+      <form action="https://httpbin.org/post" method="post">
+        <br>
+        <p>
+          <label for="FirstName">First Name:</label>
+          <input
+            type="text"
+            name="FirstName"
+            id="FirstName"
+            placeholder="Enter first name"
+            autocomplete="on"
+            minlength="8"
+            maxlength="20"
+            required
+            autofocus>
+        </p>
+        <p>
+          <label for="LastName">Last Name:</label>
+          <input
+            type="text"
+            name="LastName"
+            id="LastName"
+            placeholder="Enter last name"
+            minlength="8"
+            maxlength="20"
+            autocomplete="on"
+            required>
+        </p>
+        <p>
+          <label for="gender">Gender:</label>
+          <select id="gender" name="gender" autocomplete="on">
+            <option value="" selected></option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </p>
+        <p>
+          <label for="dateofbirth">Date of Birth:</label>
+          <input type="number" id="dateofbirth" placeholder="Enter date of birth" autocomplete="on" required>
+        </p>
+        <p>
+          <label for="email">Email Address:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter email address"
+            autocomplete="on"
+            required>
+        </p>
+        <p>
+          <label for="education">Education Level:</label>
+          <select id="education" name="education" required>
+            <option value="" disabled selected hidden></option>
+            <option value="bsc">Bsc</option>
+            <option value="diploma">Diploma</option>
+            <option value="doctorate(phd)">Doctorate(PhD)</option>
+            <option value="highschool/secondayschool">
+              High School/Seconday school
+            </option>
+            <option value="undergraduate">Under Graduate</option>
+            <option value="junior/middleschool">
+              Junior/Middle School
+            </option>
+            <option value="postgraduate">Post Graduate</option>
+          </select>
+        </p>
+        <p>
+          <label for="country">Country:</label>
+          <select name="country" id="country" required>
+            <option value="" disable selected hidden></option>
+            <option value="afghanistan">Afghanistan</option>
+            <option value="albania">Albania</option>
+            <option value="alphabet">Algeria</option>
+            <option value="andorra">Andorra</option>
+            <option value="angola">Angola</option>
+            <option value="antiguaandbarbuda">Antigua and Barbuda</option>
+            <option value="argentina">Argentina</option>
+            <option value="armenia">Armenia</option>
+            <option value="australia">Australia</option>
+            <option value="austria">Austria</option>
+            <option value="azerbaijan">Azerbaijan</option>
+            <option value="bahamas">Bahamas</option>
+            <option value="bahrain">Bahrain</option>
+            <option value="bangladesh">Bangladesh</option>
+            <option value="barbados">Barbados</option>
+            <option value="belarus">Belarus</option>
+            <option value="belgium">Belgium</option>
+            <option value="belize">Belize</option>
+            <option value="benin">Benin</option>
+            <option value="bhutan">Bhutan</option>
+            <option value="bolivia">Bolivia</option>
+            <option value="bosniaandherzegovina">Bosnia and Herzegovina</option>
+            <option value="botswana">Botswana</option>
+            <option value="brazil">Brazil</option>
+            <option value="brunei">Brunei</option>
+            <option value="bulgaria">Bulgaria</option>
+            <option value="burkinafaso">Burkina Faso</option>
+            <option value="burundi">Burundi</option>
+            <option value="Coted'Ivoire">Cote d'Ivoire</option>
+            <option value="CaboVerde">Cabo Verde</option>
+            <option value="cambodia">Cambodia</option>
+            <option value="cameroon">Cameroon</option>
+            <option value="canada">Canada</option>
+            <option value="centralafricanrepublic">
+              Central African Republic
+            </option>
+            <option value="chad">Chad</option>
+            <option value="chile">Chile</option>
+            <option value="china">China</option>
+            <option value="colombia">Colombia</option>
+            <option value="comoros">Comoros</option>
+            <option value="congobrazzaville">Congo-Brazzaville</option>
+            <option value="costarica">Costa Rica</option>
+            <option value="croatia">Croatia</option>
+            <option value="cuba">Cuba</option>
+            <option value="cyprus">Cyprus</option>
+            <option value="czechrepublic">Czech Republic</option>
+            <option value="democraticrepublicofthecongo">
+              Democartic Republic of the Congo
+            </option>
+            <option value="denmark">Denmark</option>
+            <option value="djibouti">Djibouti</option>
+            <option value="dominica">Dominica</option>
+            <option value="dominicanrepublic">Dominican Republic</option>
+            <option value="ecuador">Ecuador</option>
+            <option value="egypt">Egypt</option>
+            <option value="elsalvador">El Salvador</option>
+            <option value="equatorialguinea">Equatorial Guinea</option>
+            <option value="eritrea">Eritrea</option>
+            <option value="estonia">Estonia</option>
+            <option value="eswatini">Eswatini</option>
+            <option value="ethiopia">Ethiopia</option>
+            <option value="fiji">Fiji</option>
+            <option value="finland">Finland</option>
+            <option value="france">France</option>
+            <option value="gabon">Gabon</option>
+            <option value="gambia">Gambia</option>
+            <option value="georgia">Georgia</option>
+            <option value="germany">Germany</option>
+            <option value="ghana">Ghana</option>
+            <option value="greece">Greece</option>
+            <option value="grenada">Grenada</option>
+            <option value="guatemala">Guatemala</option>
+            <option value="guinea">Guinea></option>
+            <option value="guinea-Bissau">Guinea-Bissau</option>
+            <option value="guyana">Guyana</option>
+            <option value="haiti">Haiti</option>
+            <option value="holy See">Holy See</option>
+            <option value="honduras">Honduras</option>
+            <option value="hungary">Hungary</option>
+            <option value="iceland">Iceland</option>
+            <option value="india">India</option>
+            <option value="indonesia">Indonesia</option>
+            <option value="iran">Iran</option>
+            <option value="iraq">Iraq</option>
+            <option value="ireland">Ireland</option>
+            <option value="israel">Israel</option>
+            <option value="italy">Italy</option>
+            <option value="jamaica">Jamaica</option>
+            <option value="japan">Japan</option>
+            <option value="jordan">Jordan</option>
+            <option value="Kazakhstan">Kazakhstan</option>
+            <option value="Kenya">Kenya</option>
+            <option value="Kiribati">Kiribati</option>
+            <option value="Kuwait">Kuwait</option>
+            <option value="Kyrgyzstan">Kyrgyzstan</option>
+            <option value="laos">Laos</option>
+            <option value="latvia">Latvia</option>
+            <option value="lebanon">Lebanon</option>
+            <option value="lesotho">Lesotho</option>
+            <option value="liberia">Liberia</option>
+            <option value="libya">Libya</option>
+            <option value="liechtenstein">Liechtenstein</option>
+            <option value="lithuania">Lithuania</option>
+            <option value="luxembourg">Luxembourg</option>
+            <option value="madagascar">Madagascar</option>
+            <option value="malawi">Malawi</option>
+            <option value="malaysia">Malaysia</option>
+            <option value="maldives">Maldives</option>
+            <option value="mali">Mali</option>
+            <option value="malta">Malta</option>
+            <option value="marshallislands">Marshall Islands</option>
+            <option value="mauritania">Mauritania</option>
+            <option value="mauritius">Mauritius</option>
+            <option value="mexico">Mexico</option>
+            <option value="micronesia">Micronesia</option>
+            <option value="moldova">Moldova</option>
+            <option value="monaco">Monaco</option>
+            <option value="mongolia">Mongolia</option>
+            <option value="montenegro">Montenegro</option>
+            <option value="morocco">Morocco</option>
+            <option value="mozambique">Mozambique</option>
+            <option value="myanmar">Myanmar</option>
+            <option value="namibia">Namibia</option>
+            <option value="nauru">Nauru</option>
+            <option value="nepal">Nepal</option>
+            <option value="netherlands">Netherlands</option>
+            <option value="newzealand">New Zealand</option>
+            <option value="nicaragua">Nicaragua</option>
+            <option value="niger">Niger</option>
+            <option value="nigeria">Nigeria</option>
+            <option value="northkorea">North Korea</option>
+            <option value="northmacedonia">North Macedonia</option>
+            <option value="norway">Norway</option>
+            <option value="oman">Oman</option>
+            <option value="pakistan">Pakistan</option>
+            <option value="palau">Palau</option>
+            <option value="palestinestate">Palestine State</option>
+            <option value="panama">Panama</option>
+            <option value="papuanewguinea">Papua New Guinea</option>
+            <option value="paraguay">Paraguay</option>
+            <option value="peru">Peru</option>
+            <option value="philippines">Philippines</option>
+            <option value="poland">Poland</option>
+            <option value="portugal">Portugal</option>
+            <option value="qatar">Qatar</option>
+            <option value="romania">Romania</option>
+            <option value="russia">Russia</option>
+            <option value="rwanda">Rwanda</option>
+            <option value="saintkittsandnevis">Saint Kitts and Nevis</option>
+            <option value="saintlucia">Saint Lucia</option>
+            <option value="saintvincentandthegrenadines">
+              Saint Vincent and the Grenadines
+            </option>
+            <option value="samoa">Samoa</option>
+            <option value="sanmarino">San Marino</option>
+            <option value="saotomaandprincipe">Sao Tome and Principe</option>
+            <option value="saudiarabia">Saudi Arabia</option>
+            <option value="senegal">Senegal</option>
+            <option value="serbia">Serbia</option>
+            <option value="seychelles">Seychelles</option>
+            <option value="sierraleone">Sierra Leone</option>
+            <option value="singapore">Singapore</option>
+            <option value="slovakia">Slovakia</option>
+            <option value="slovenia">Slovenia</option>
+            <option value="solomonislands">Solomon Islands</option>
+            <option value="somalia">Somalia</option>
+            <option value="southafrica">South Africa</option>
+            <option value="southkorea">South Korea</option>
+            <option value="southsudan">South Sudan</option>
+            <option value="spain">Spain</option>
+            <option value="srilanka">Sri Lanka</option>
+            <option value="sudan">Sudan</option>
+            <option value="suriname">Suriname</option>
+            <option value="sweden">Sweden</option>
+            <option value="switzerland">Switzerland</option>
+            <option value="syria">Syria</option>
+            <option value="tajikistan">Tajikistan</option>
+            <option value="tanzania">Tanzania</option>
+            <option value="thailand">Thailand</option>
+            <option value="timor-Leste">Timor-Leste</option>
+            <option value="togo">Togo</option>
+            <option value="tonga">Tonga</option>
+            <option value="trinidad and Tobago">Trinidad and Tobago</option>
+            <option value="tunisia">Tunisia</option>
+            <option value="turkey">Turkey</option>
+            <option value="turkmenistan">Turkmenistan</option>
+            <option value="tuvalu">Tuvalu</option>
+            <option value="uganda">Uganda</option>
+            <option value="ukraine">Ukraine</option>
+            <option value="unitedarabemirates">United Arab Emirates</option>
+            <option value="unitedkingdom">United Kingdom</option>
+            <option value="unitedstateofamerica">
+              United States of America
+            </option>
+            <option value="uruguay">Uruguay</option>
+            <option value="uzbekistan">Burundi</option>
+            <option value="vanuatu">Vanuatu</option>
+            <option value="venezuela">Venezuela</option>
+            <option value="vietnam">Vietnam</option>
+            <option value="yemen">Yemen</option>
+            <option value="zambia">Zambia</option>
+            <option value="zimbabwe">Zimbabwe</option>
+          </select>
+        </p>
+        <p>
+          <label for="state/cityofresidence"> State/ City of Residence:</label>
+          <input
+            type="text"
+            name="state/cityofresidence"
+            id="state/cityofresidence"
+            placeholder="Enter your state of residence"
+            autocomplete="on"
+            required>
+        </p>
+        <p>
+          <label for="employmentstatus">Employment Status:</label>
+          <select name="employmentstatus" id="employmentstatus" required>
+            <option value="" disabled selected hidden></option>
+            <option value="employed">Employed</option>
+            <option value="School of Data">Unemployed</option>
+            <option value="selfemployed">Self-Employed</option>
+          </select>
+        </p>
+        <p>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" name="phone" id="phone" placeholder="07*********"
+        autocomplete="tel" pattern="[0-9][3][0-9][3][0-9][3][0-9][2]" required>
+        </p>
+        <p>
+            <label for="school">Choose School:</label>
+            <select name="school" id="school" required>
+            <option value="" disabled selected hidden></option>
+            <option value="schoolofengineering">School of Engineering</option>
+            <option value="schoolofdata">School of Data</option>
+            <option value="schoolofproduct">School of Product</option>
+            <option value="schoolofbusiness">School of Business</option>
+            <option value="schoolofcreativeeconomy">School of Creative Economy</option>
+          </select>
+        </p>
+        <p>
+            <label for="courseofstudy">Choose Course of Study:</label>
+            <select name="courseofstudy" id="courseofstudy" required>
+                <option value="" disabled selected hidden></option>
+                <optgroup label="School of Engineering">
+                <option value="frontend">Frontend</option>
+                    <option value="backend">Backend</option>
+                    <option value="cloud">Cloud</option>
+                </optgroup>
+                <optgroup label="School of Data">
+                    <option value="dataanalytics">Data Analytics</option>
+                    <option value="datascience">Data Science</option>
+                    <option value="dataengineering">Data Engineering</option>
+                </optgroup>
+                <optgroup label="School of Product">
+                    <option value="productmanagement">Product Management</option>
+                    <option value="productdesign">Product Design</option>
+                    <option value="productmarketing">Product Marketing</option>
+                </optgroup>
+                <optgroup label="School of Business">
+                    <option value="digitalmarketing">Digital Marketing</option>
+                </optgroup>
+                <optgroup label="School of Creative Economy">
+                   <option value="contentmastery">Content Mastery</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="howdidyouhearaboutus">How did you hear about us?</label>
+            <select name="howdidyouhearaboutus" id="howdidyouhearaboutus">
+               <option value="" disable selected hidden></option>
+               <option value="whatsapp">WhatsApp</option>
+               <option value="twitter">Twitter</option>
+               <option value="telegram">Telegram</option>
+               <option value="insatgram">Instagram</option>
+               <option value="billboard">Bill Board</option>
+               <option value="youtube">Youtube</option>
+               <option value="friend">Friend</option>
+               <option value="linkedin">Linkedin</option>
+               <option value="facebook">Facebook</option>
+            </select>
+        </p>
+         <p>
+            <label for="discountcode">Scholarship/Discount Code(optional):</label>
+            <input type="text" name="discountcode" id="discountcode" placeholder="Scholarship or Student ID or...">
+        </p>
+      </form>
+    </main>
+    <br>
+    <footer>
+        <p> By clicking submit, I agree to the <u><strong>Terms of Use</strong></u> and acknowledge that I have read the <u><strong> Privacy Policy</strong></u>.</p>
+        <p>Already have an account?<u><strong>Sign In</strong></u>.</p>
+        <br><br>
+        <button type="button">Submit</button>
+        <button type="button">Reset</button>
+        <p>
+            <a href="#">Back To Top</a>
+        </p>
+    </footer>
+  </body>
+</html>
